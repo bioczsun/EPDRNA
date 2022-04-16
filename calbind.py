@@ -1,6 +1,5 @@
 from pymol import cmd
 import os
-
 class PDBparase():
     def __init__(self,pdbid,pdbfilepath,out_path=os.path.abspath('.')):
         self.pdbid = pdbid
