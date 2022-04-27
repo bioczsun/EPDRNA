@@ -168,7 +168,7 @@ class PDBparase():
                         print('%s\t%s\t%s\t%s\t%s\t%s' % (self.pdbid, d,'PIP', c, ' '.join(site_ls), seq),
                               file=self.outpath)
                         print('%s\t%s\t%s\t%s\t%s\t%s' % (self.pdbid, d,'PIP', c, ' '.join(site_ls), seq))
-pdb = PDBparase('4qoz','5mxd.pdb')
+pdb = PDBparase('4qoz','4qoz.pdb') #pdb id, pdb file path
 
 # print(pdb.extractligand())
 
